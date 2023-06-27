@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 :root {
   --background-color: #4d4e67;
   --background-color-shade: #010226;
@@ -9,16 +11,108 @@
   --hover-color: #ffffffff
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Basic SetUp */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
 }
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--skin-color-shade);
+  position: relative;
+}
+
+div {
+  position: relative;
+}
+
+::selection {
+  color: var(--background-color-shade);
+  background-color: var(--skin-color);
+}
+
+/* Scrollbar design */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--menu-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--Theme-color);
+  border-radius: 1rem;
+}
+
+.active {
+  border-bottom: 1px solid var(--Theme-color);
+  transform: translateX(5px);
+}
+
+/* Reusable Component */
+
+section {
+  margin-left: 30rem;
+  padding: 4rem;
+  background-color: var(--background-color-shade);
+}
+
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+
+.grid--2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5--col {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: var(--Theme-color);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: var(--Theme-color-hover);
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin-left: 0;
+  }
 }

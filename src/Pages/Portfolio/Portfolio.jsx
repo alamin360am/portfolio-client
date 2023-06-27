@@ -1,9 +1,9 @@
 
 const Portfolio = () => {
     return (
-        <div>
+        <section>
             Portfolio
-        </div>
+        </section>
     );
 };
 
