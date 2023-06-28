@@ -151,6 +151,7 @@ section {
 @media screen and (max-width: 991px) {
   section {
     margin-left: 25rem;
+    padding: 3rem;
   }
   .grid {
     display: grid;
@@ -177,6 +178,7 @@ section {
 @media screen and (max-width: 768px) {
   section {
     margin-left: 0;
+    padding: 2rem;
     padding-bottom: 10rem;
   }
   .grid {

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SectionHeading from "../../../Components/SectionHeading/SectionHeading";
 import ProfilePhoto from "../ProfilePhoto/ProfilePhoto";
+import { AiFillFacebook, AiFillLinkedin, AiOutlineGithub, AiOutlineWhatsApp } from "react-icons/ai";
 import "./home.css";
 
 const Home = () => {
@@ -24,6 +25,44 @@ const Home = () => {
           <Link to="/about" className="btn">
             More about me
           </Link>
+          <div className="social">
+            <div className="social-list">
+              <a
+                href="https://www.facebook.com/alamin360am"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiFillLinkedin></AiFillLinkedin>
+              </a>
+            </div>
+            <div className="social-list">
+              <a
+                href="https://www.facebook.com/alamin360am"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiFillFacebook></AiFillFacebook>
+              </a>
+            </div>
+            <div className="social-list">
+              <a
+                href="https://github.com/alamin360am"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiOutlineGithub></AiOutlineGithub>
+              </a>
+            </div>
+            <div className="social-list">
+              <a
+                href="https://wa.me/qr/6AOTB44USRA4O1"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiOutlineWhatsApp></AiOutlineWhatsApp>
+              </a>
+            </div>
+          </div>
         </div>
         <ProfilePhoto></ProfilePhoto>
       </div>
