@@ -4,10 +4,10 @@ import Nav from "../Shared/Nav";
 
 const Main = () => {
     return (
-        <div>
+        <main>
             <Nav></Nav>
             <Outlet></Outlet>
-        </div>
+        </main>
     );
 };
 

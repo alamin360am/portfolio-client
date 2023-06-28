@@ -12,7 +12,7 @@ const Home = () => {
           <h3 className="secondary-heading">
             Hi, I am <span>Al - Amin</span>
           </h3>
-          <p className="subtitle">A full stack web developer</p>
+          <p className="subtitle">MERN stack web developer</p>
           <p className="description">
             As a MERN stack web developer, I specialize in creating dynamic and
             responsive web applications using the powerful combination of
