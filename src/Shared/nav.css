@@ -23,7 +23,7 @@ nav .nav-link {
 
 nav .nav-link a {
     font-size: 2rem;
-    color: var(--Theme-color);
+    color: var(--Skin-color);
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -35,15 +35,17 @@ nav .nav-link a {
 
 nav .nav-link a:hover {
     transform: translateX(5px);
+    color: var(--Theme-color);
     border-bottom: 1px solid var(--Theme-color);
 }
 
 .icon {
     font-size: 2rem;
-    color: var(--Theme-color);
+    /* color: var(--Skin-color); */
 }
 
-.active {
+nav .nav-link a.active {
+    color: var(--Theme-color);
     border-bottom: 2px solid var(--Theme-color);
     transform: translateX(5px);
   }
