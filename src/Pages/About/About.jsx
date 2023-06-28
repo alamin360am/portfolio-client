@@ -35,7 +35,7 @@ const About = () => {
             <div className="info-box">
               <p className="info-title">Website:</p>
               <p className="info">
-                <a href="#">www.domain.com</a>
+                <a href="https://alamin-portfolio.web.app/">Click Here</a>
               </p>
             </div>
             <div className="info-box">
@@ -126,13 +126,13 @@ const About = () => {
               </h4>
               <p className="description">
                 I&apos;m currently a student at Carmichael College studying B.Sc
-                in Mathematics.
+                in Mathematics (2nd year).
               </p>
             </div>
             <div className="details-box">
               <div className="year">
                 <BsCalendarDate className="icon"></BsCalendarDate>
-                <p>2017</p>
+                <p>2019</p>
               </div>
               <h4 className="tertiary-heading margin-bottom-sm">
                 Higher Secondary Certificate (HSC)

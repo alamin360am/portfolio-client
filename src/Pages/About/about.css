@@ -1,3 +1,7 @@
+.information {
+    margin-bottom: 3rem;
+}
+
 .information.grid--2--col {
     grid-template-columns: 3fr 2fr;
 }
@@ -8,11 +12,9 @@
     margin-bottom: 4rem;
 }
 
-.data
-
 .info-box {
     display: flex;
-    /* align-items: center; */
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -97,4 +99,10 @@
 .details-box .year .icon {
     font-size: 2rem;
     color: var(--Theme-color);
+}
+
+@media screen and (max-width: 768px) {
+    .info-box {
+        flex-direction: row;
+    }
 }
