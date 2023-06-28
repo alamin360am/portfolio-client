@@ -6,7 +6,7 @@ const ProfilePhoto = () => {
   const letter = title.split('')
   console.log(letter);
   return (
-    <div className="profile-img-box">
+    <div className="profile-img-box scale-animation">
       <div className="img">
         <img src={profileImg} alt="" />
       </div>

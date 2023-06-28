@@ -137,10 +137,45 @@ section {
 
 .secondary-heading span {
   color: var(--Theme-color);
+  margin-right: 5px;
 }
 
 .tertiary-heading {
   font-size: 2rem;
+}
+
+/* animation */
+
+.transform-left-animation {
+  animation: transformLeft 1.2s ease-in;
+  transform: translateX(0%);
+}
+
+@keyframes transformLeft {
+  0%{transform: translateX(-100%);}
+  80%{transform: translateX(10%);}
+  100%{transform: translateX(0%);}
+}
+
+.transform-right-animation {
+  animation: transformRight 1.2s ease-in;
+}
+
+@keyframes transformRight {
+  0%{transform: translateX(80%);}
+  80%{transform: translateX(-10%);}
+  100%{transform: translateX(0%);}
+}
+
+.scale-animation {
+  animation: scale 1.2s ease-in;
+}
+
+@keyframes scale {
+  0%{transform: scale(0%);}
+  40%{transform: scale(0%);}
+  80%{transform: scale(110%);}
+  100%{transform: scale(100%);}
 }
 
 @keyframes sectionAnimation {
