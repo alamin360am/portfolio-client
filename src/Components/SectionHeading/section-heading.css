@@ -1,0 +1,38 @@
+.primary-heading{
+    font-weight: 700;
+    color: var(--skin-color);
+    font-size: 3.6rem;
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.primary-heading::before {
+    content: "";
+    height: 3px;
+    width: 6rem;
+    background-color: var(--skin-color);
+    position: absolute;
+    bottom: 0;
+}
+
+.primary-heading::after {
+    content: "";
+    height: 3px;
+    width: 2.5rem;
+    background-color: var(--skin-color);
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .primary-heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .primary-heading {
+        font-size: 2.6rem;
+    }
+}
