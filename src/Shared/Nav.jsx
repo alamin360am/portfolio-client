@@ -6,28 +6,28 @@ import "./nav.css";
 const Nav = () => {
   return (
     <nav>
-      <ul>
-        <li>
+      <div className="nav-link">
+        <NavLink to="/">
           <AiFillHome className="icon"></AiFillHome>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
+          <span>Home</span>
+        </NavLink>
+        <NavLink to="/about">
           <AiOutlineSolution className="icon"></AiOutlineSolution>
-          <NavLink to="/about">About Me</NavLink>
-        </li>
-        <li>
+          <span>About Me</span>
+        </NavLink>
+        <NavLink to="/services">
           <BiCodeAlt className="icon"></BiCodeAlt>
-          <NavLink to="/services">Services</NavLink>
-        </li>
-        <li>
+          <span>Services</span>
+        </NavLink>
+        <NavLink to="/portfolio">
           <AiFillHeart className="icon"></AiFillHeart>
-          <NavLink to="/portfolio">Portfolio</NavLink>
-        </li>
-        <li>
+          <span>Portfolio</span>
+        </NavLink>
+        <NavLink to="/contact">
           <BiSolidMessageRoundedDots className="icon"></BiSolidMessageRoundedDots>
-          <NavLink to="/contact">Contact</NavLink>
-        </li>
-      </ul>
+          <span>Contact</span>
+        </NavLink>
+      </div>
     </nav>
   );
 };
