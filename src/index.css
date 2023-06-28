@@ -111,10 +111,46 @@ section {
   section {
     margin-left: 25rem;
   }
+  .grid {
+    display: grid;
+    gap: 4.8rem;
+  }
+  
+  .grid-2-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .grid-3-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-4-col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-5-col {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (max-width: 768px) {
   section {
     margin-left: 0;
+  }
+  .grid {
+    display: grid;
+    gap: 4.8rem;
+  }
+  
+  .grid-3-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .grid-4-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-5-col {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

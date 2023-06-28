@@ -14,12 +14,14 @@ const Home = () => {
           </h3>
           <p className="subtitle">A full stack web developer</p>
           <p className="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut placeat
-            commodi aut omnis, at reprehenderit quaerat veniam, quam consectetur
-            hic id tempore sit temporibus accusamus dolorum assumenda expedita
-            dicta libero?
+            As a MERN stack web developer, I specialize in creating dynamic and
+            responsive web applications using the powerful combination of
+            MongoDB, Express.js, React.js, and Node.js. With a strong foundation
+            in these technologies, I am passionate about crafting seamless user
+            experiences and leveraging the full potential of the MERN stack to
+            build robust and scalable web solutions
           </p>
-          <Link to='/about' className="btn">
+          <Link to="/about" className="btn">
             More about me
           </Link>
         </div>

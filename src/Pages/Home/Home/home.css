@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.hero {
+    order: 1;
+}
+
 .secondary-heading {
     font-size: 2.8rem;
 }
@@ -16,4 +20,16 @@
 
 .hero .description {
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 991px) {
+    .home {
+        height: 100%;
+    }
+    .home .grid {
+        justify-items: center;
+    }
+    .hero {
+        order: 2;
+    }
 }
