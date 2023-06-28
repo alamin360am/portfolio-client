@@ -37,6 +37,7 @@ body {
   font-weight: 400;
   color: var(--skin-color-shade);
   position: relative;
+  overflow-x: hidden;
 }
 
 div {
@@ -76,19 +77,19 @@ section {
   gap: 4.8rem;
 }
 
-.grid--2--col {
+.grid-2-col {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid--3--col {
+.grid-3-col {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.grid--4--col {
+.grid-4-col {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5--col {
+.grid-5-col {
   grid-template-columns: repeat(5, 1fr);
 }
 

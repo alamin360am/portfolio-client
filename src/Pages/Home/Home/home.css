@@ -1,0 +1,19 @@
+.home {
+    height: 100vh;
+}
+
+.secondary-heading {
+    font-size: 2.8rem;
+}
+
+.secondary-heading span {
+    color: var(--Theme-color);
+}
+
+.hero .subtitle {
+    margin-bottom: 3rem;
+}
+
+.hero .description {
+    margin-bottom: 4rem;
+}
