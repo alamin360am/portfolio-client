@@ -29,6 +29,7 @@ nav .nav-link a {
     margin-bottom: 2rem;
     padding-bottom: 0.4rem;
     transition: all 0.4s;
+    animation: navAnimation 1.2s ease-in;
 }
 
 nav .nav-link a:hover {
@@ -45,6 +46,26 @@ nav .nav-link a:hover {
     border-bottom: 2px solid var(--Theme-color);
     transform: translateX(5px);
   }
+
+  nav .nav-link a:nth-child(1) {animation-delay: 0.2s;}
+  nav .nav-link a:nth-child(2) {animation-delay: 0.4s;}
+  nav .nav-link a:nth-child(3) {animation-delay: 0.6s;}
+  nav .nav-link a:nth-child(4) {animation-delay: 0.8s;}
+  nav .nav-link a:nth-child(5) {animation-delay: 1s;}
+
+@keyframes navAnimation {
+    0% {
+        transform: translateX(-25rem);
+        opacity: 0;
+    }
+    90% {
+        transform: translateX(1rem);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width: 768px) {
     nav {
@@ -88,6 +109,18 @@ nav .nav-link a:hover {
         background: var(--skin-color);
         transform: translateY(-2px);
       }
+
+      @keyframes navAnimation {
+        0% {
+            transform: translateY(-25rem);
+        }
+        90% {
+            transform: translateY(1rem);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {
