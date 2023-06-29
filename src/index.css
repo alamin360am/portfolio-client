@@ -43,6 +43,17 @@
   --hover-color: #ffffffff;
 }
 
+[data-theme="green"] {
+  --background-color: #4d4e67;
+  --background-color-shade: #003e1f;
+  --menu-background-color: #33654c;
+  --skin-color: #ffffffff;
+  --skin-color-shade: #e6e6e6;
+  --Theme-color: #FFD000;
+  --Theme-color-hover: #cca600;
+  --hover-color: #ffffffff;
+}
+
 /* Basic SetUp */
 
 *,

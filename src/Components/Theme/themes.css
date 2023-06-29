@@ -25,7 +25,8 @@
 
 .theme-1,
 .theme-2,
-.theme-3 {
+.theme-3,
+.theme-4 {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -34,6 +35,7 @@
 .theme-1 {background: radial-gradient( #010226,#fb8500);}
 .theme-2 {background: radial-gradient( #e6e6e6, #754a1a);}
 .theme-3 {background: radial-gradient( #000000, #FF667F);}
+.theme-4 {background: radial-gradient( #003e1f, #FFD000);}
 
 @keyframes theme {
     0% {transform: rotate(0deg);}

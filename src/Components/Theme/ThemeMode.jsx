@@ -15,6 +15,8 @@ const ThemeMode = () => {
 
   const theme3 = () =>{setTheme("black")}
 
+  const theme4 = () =>{setTheme("green")}
+
   return (
     <div className="theme">
       <div onClick={themeClick} className="theme-icon" title="Theme">
@@ -31,6 +33,7 @@ const ThemeMode = () => {
           <div onClick={theme1} className="theme-1"></div>
           <div onClick={theme2} className="theme-2"></div>
           <div onClick={theme3} className="theme-3"></div>
+          <div onClick={theme4} className="theme-4"></div>
         </div>
       )}
     </div>
