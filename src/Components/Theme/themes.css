@@ -1,0 +1,41 @@
+.theme {
+    position: fixed;
+    right: 3rem;
+    top: 2rem;
+    z-index: 100;
+}
+.theme-icon .ico {
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--skin-color);
+    animation: theme 10s linear infinite;
+}
+
+.themes{
+    background-color: #ffffffff;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.theme-1,
+.theme-2,
+.theme-3 {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.theme-1 {background: radial-gradient( #010226,#fb8500);}
+.theme-2 {background: radial-gradient( #e6e6e6, #754a1a);}
+.theme-3 {background: radial-gradient( #000000, #FF667F);}
+
+@keyframes theme {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

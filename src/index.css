@@ -11,6 +11,38 @@
   --hover-color: #ffffffff;
 }
 
+[data-theme="blue"] {
+  --background-color: #4d4e67;
+  --background-color-shade: #010226;
+  --menu-background-color: #1a1b3c;
+  --skin-color: #ffffffff;
+  --skin-color-shade: #e6e6e6;
+  --Theme-color: #fb8500;
+  --Theme-color-hover: #c96a00;
+  --hover-color: #ffffffff;
+}
+
+[data-theme="white"] {
+  --skin-color: #010226;
+  --skin-color-shade: #4d4e67;
+  --menu-background-color: #ffffffff;
+  --background-color-shade: #e6e6e6;
+  --Theme-color: #663600;
+  --Theme-color-hover: #754a1a;
+  --hover-color: #ffffffff;
+}
+
+[data-theme="black"] {
+  --background-color: #4d4e67;
+  --background-color-shade: #000000;
+  --menu-background-color: rgb(43, 43, 43);
+  --skin-color: #ffffffff;
+  --skin-color-shade: #e6e6e6;
+  --Theme-color: #FF667F;
+  --Theme-color-hover: #b34759;
+  --hover-color: #ffffffff;
+}
+
 /* Basic SetUp */
 
 *,
@@ -152,9 +184,18 @@ section {
 }
 
 @keyframes transformLeft {
-  0%{transform: translateX(-100%);}
-  80%{transform: translateX(10%);}
-  100%{transform: translateX(0%);}
+  0% {
+    transform: translateX(-200%);
+  }
+  40% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .transform-right-animation {
@@ -162,9 +203,18 @@ section {
 }
 
 @keyframes transformRight {
-  0%{transform: translateX(80%);}
-  80%{transform: translateX(-10%);}
-  100%{transform: translateX(0%);}
+  0% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(80%);
+  }
+  80% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .scale-animation {
@@ -172,15 +222,27 @@ section {
 }
 
 @keyframes scale {
-  0%{transform: scale(0%);}
-  40%{transform: scale(0%);}
-  80%{transform: scale(110%);}
-  100%{transform: scale(100%);}
+  0% {
+    transform: scale(0%);
+  }
+  40% {
+    transform: scale(0%);
+  }
+  80% {
+    transform: scale(110%);
+  }
+  100% {
+    transform: scale(100%);
+  }
 }
 
 @keyframes sectionAnimation {
-  0% {transform: translateX(100%);}
-  100% {transform: translateX(0%);}
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 @media screen and (max-width: 991px) {
