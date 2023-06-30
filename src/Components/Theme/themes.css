@@ -21,6 +21,7 @@
     right: 0;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
 }
 
 .theme-1,
@@ -30,12 +31,21 @@
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .theme-1 {background: radial-gradient( #010226,#fb8500);}
 .theme-2 {background: radial-gradient( #e6e6e6, #754a1a);}
 .theme-3 {background: radial-gradient( #000000, #FF667F);}
 .theme-4 {background: radial-gradient( #003e1f, #FFD000);}
+
+.hide-modal {
+    transform: translateX(120%);
+}
+
+.show-modal {
+    transform: translateX(0%);
+}
 
 @keyframes theme {
     0% {transform: rotate(0deg);}
