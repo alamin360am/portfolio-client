@@ -1,0 +1,34 @@
+.service-box {
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--menu-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box .icon-box {
+    font-size: 4rem;
+    height: 7rem;
+    width: 7rem;
+    color: var(--Theme-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    transition: all 0.4s;
+}
+
+.service-box:hover .icon-box {
+    color: var(--hover-color);
+    background-color: var(--Theme-color);
+}
+
+.service-box .tertiary-heading {
+    text-align: center;
+}
+
+.service-box .description {
+    text-align: justify;
+}

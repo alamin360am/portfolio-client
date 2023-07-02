@@ -1,9 +1,10 @@
+import SectionHeading from '../../Components/SectionHeading/SectionHeading';
 import './portfolio.css'
 
 const Portfolio = () => {
     return (
         <section>
-            Portfolio
+            <SectionHeading heading={"Portfolio"}></SectionHeading>
         </section>
     );
 };

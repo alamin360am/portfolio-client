@@ -1,8 +1,9 @@
+import SectionHeading from "../../Components/SectionHeading/SectionHeading";
 
 const Contact = () => {
     return (
         <section>
-            Contact
+            <SectionHeading heading={"Contact"}></SectionHeading>
         </section>
     );
 };
