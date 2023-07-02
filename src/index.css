@@ -173,7 +173,7 @@ section {
   font-size: 1rem;
   text-transform: capitalize;
   color: #000;
-  background-color: var(--skin-color);
+  background-color: #fff;
   padding: 1rem;
   border-radius: 1.4rem;
   text-align: center;
@@ -182,7 +182,7 @@ section {
 
 .btn-sm:hover {
   background-color: var(--Theme-color);
-  color: var(--skin-color);
+  color: #fff;
 }
 
 .secondary-heading,

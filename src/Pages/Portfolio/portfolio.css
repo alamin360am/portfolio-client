@@ -37,6 +37,7 @@
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.75);
+    color: #fff;
     transform: translateY(100%);
     transition: all 1s;
     padding: 2rem;
