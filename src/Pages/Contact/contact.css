@@ -1,0 +1,64 @@
+.question-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.question-box .tertiary-heading {
+    font-size: 2.4rem;
+    color: var(--Theme-color);
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.contact-box .icon {
+    font-size: 3rem;
+    color: var(--Theme-color);
+    margin-bottom: 1rem;
+}
+
+.contact-box p,
+.contact-box a {
+    text-align: center;
+}
+
+.contact-box a {
+    color: var(--skin-color-shade);
+}
+
+
+.input {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+    color: var(--skin-color-shade);
+    background-color: var(--menu-background-color);
+}
+
+.textarea {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+form .btn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .contact .grid {
+        gap: 0;
+    }
+}
