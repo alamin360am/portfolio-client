@@ -45,24 +45,24 @@ const Contact = () => {
         <p>I am at your service</p>
       </div>
       <div className="grid grid-4-col">
-        <div className="contact-box">
+        <div className="contact-box scale-animation">
           <div className="icon"></div>
           <h4 className="tertiary-heading">Call me on</h4>
           <a href="tel:+8801765923094">+8801765923094</a>
         </div>
-        <div className="contact-box">
+        <div className="contact-box scale-animation">
           <div className="icon"></div>
           <h4 className="tertiary-heading">Address</h4>
           <p>New EngineerPara, Rangpur</p>
         </div>
-        <div className="contact-box">
+        <div className="contact-box scale-animation">
           <div className="icon"></div>
           <h4 className="tertiary-heading">Email Me</h4>
           <a href="mailto:alaminrahmatullah567@gmail.com">
             alaminrahmatullah567@gmail.com
           </a>
         </div>
-        <div className="contact-box">
+        <div className="contact-box scale-animation">
           <div className="icon"></div>
           <h4 className="tertiary-heading">Website</h4>
           <a href="https://alamin-portfolio.web.app/">Click Here</a>

@@ -169,6 +169,22 @@ section {
   background-color: var(--Theme-color-hover);
 }
 
+.btn-sm {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #000;
+  background-color: var(--skin-color);
+  padding: 1rem;
+  border-radius: 1.4rem;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.btn-sm:hover {
+  background-color: var(--Theme-color);
+  color: var(--skin-color);
+}
+
 .secondary-heading,
 .tertiary-heading {
   font-weight: 700;
