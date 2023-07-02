@@ -139,17 +139,27 @@ const Portfolio = () => {
           <img src={img4} alt="" />
           <div className="portfolio-info">
             <p>
-              <span>Name: Guess Number Game</span>
+              <span>Name:</span> Guess Number Game
             </p>
             <p>
-              <span>Technologies: HTML, CSS, JavaScript</span>
+              <span>Technologies:</span> HTML, CSS, JavaScript
             </p>
-            <p className="description"></p>
+            <p className="description">A small number guessing game. To develop this game I used html, vanilla CSS and vanilla JavaScript</p>
             <div className="grid grid-3-col">
-              <a href="https://alamin360am.github.io/Guess-Number-Game/" className="btn-sm" rel="noreferrer" target="_blank">
+              <a
+                href="https://alamin360am.github.io/Guess-Number-Game/"
+                className="btn-sm"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Live Link
               </a>
-              <a href="https://github.com/alamin360am/Guess-Number-Game" className="btn-sm" rel="noreferrer" target="_blank">
+              <a
+                href="https://github.com/alamin360am/Guess-Number-Game"
+                className="btn-sm"
+                rel="noreferrer"
+                target="_blank"
+              >
                 client site
               </a>
             </div>
