@@ -22,14 +22,14 @@ const Home = () => {
           <p className="description transform-right-animation">
           As a MERN stack web developer, I specialize in creating dynamic and responsive web  applications using the powerful combination of MongoDB, Express.js, React.js, and Node.js. With a strong foundation in these technologies, I am passionate about crafting seamless user experiences and leveraging the full potential of the MERN stack to build robust and scalable web solutions
           </p>
-          <Link to="/about" className="btn margin-right-sm">
+          <Link to="/about" className="btn margin-right-sm transform-right-animation">
             More about me
           </Link>
           <a
             href="https://drive.google.com/file/d/16QdwO-7QukuyDp7zldhjiC44d7d5edNp/view?usp=sharing"
-            className="btn" rel="noopener noreferrer" target="_blank"
+            className="btn transform-right-animation" rel="noopener noreferrer" target="_blank"
           >Download CV</a>
-          <div className="social">
+          <div className="social scale-animation">
             <div className="social-list">
               <a
                 href="https://www.linkedin.com/in/md-al-amin-rahmatullah-770185280/"
