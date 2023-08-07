@@ -26,7 +26,7 @@ const Home = () => {
             More about me
           </Link>
           <a
-            href="https://drive.google.com/file/d/16QdwO-7QukuyDp7zldhjiC44d7d5edNp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1J_n-i0cD5qeeKUt_gF7YhXVkaVKKNOUO/view?usp=sharing"
             className="btn transform-right-animation" rel="noopener noreferrer" target="_blank"
           >Download CV</a>
           <div className="social scale-animation">
