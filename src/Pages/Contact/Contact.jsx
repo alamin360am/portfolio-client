@@ -11,8 +11,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(import.meta.env.VITE_PUBLIC_KEY);
-
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -22,17 +20,24 @@ const Contact = () => {
       )
       .then(
         (result) => {
-            console.log(result);
+          if(result) {
             Swal.fire({
                 position: 'center',
                 icon: 'success',
                 title: 'Your Email has been send successfully',
                 showConfirmButton: false,
                 timer: 1500
-              })
+              });
+            }
         },
         (error) => {
-          console.log(error.text);
+          Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: error.message,
+                showConfirmButton: false,
+                timer: 1500
+              });
         }
       );
   };
