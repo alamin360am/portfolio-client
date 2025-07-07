@@ -4,12 +4,53 @@ import img1 from "./../../../public/Summer-Camp-Home-min.png";
 import img2 from "./../../../public/Chinese-Food-min.png";
 import img3 from "./../../../public/Toy-House-Home-min.png";
 import img4 from "./../../../public/Game-Guess-My-Number-min.png";
+import img5 from "./../../../public/Task-Manager.png";
 
 const Portfolio = () => {
   return (
     <section>
       <SectionHeading heading={"Portfolio"}></SectionHeading>
       <div className="grid grid-3-col">
+        <div className="portfolio-box scale-animation">
+          <img src={img5} alt="" />
+          <div className="portfolio-info">
+            <p>
+              <span>Name:</span> Task Manager
+            </p>
+            <p>
+              <span>Technologies:</span> Mern Stack, TailwindCSS, jsonwebtoken,
+            </p>
+            <p className="description">
+              A fully responsive task manager web app with user-based routes and full authentication. Each task includes a title, description, due date, and attachment. Built with a clean and user-friendly interface.
+            </p>
+            <div className="grid grid-3-col">
+              <a
+                href="https://task-manager-frontend-beta-six.vercel.app/"
+                className="btn-sm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Live Link
+              </a>
+              <a
+                href="https://github.com/alamin360am/task-manager-frontend"
+                className="btn-sm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                client site
+              </a>
+              <a
+                href="https://github.com/alamin360am/task-manager-backend"
+                className="btn-sm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                server site
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="portfolio-box scale-animation">
           <img src={img1} alt="" />
           <div className="portfolio-info">

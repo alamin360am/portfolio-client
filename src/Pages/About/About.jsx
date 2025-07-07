@@ -70,7 +70,7 @@ const About = () => {
             Download CV
           </a>
           <Link to="/contact" className="btn">
-            Hair Me
+            Hire Me
           </Link>
         </div>
         <div className="skill">
