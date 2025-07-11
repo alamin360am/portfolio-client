@@ -19,7 +19,41 @@ nav .nav-link {
     flex-direction: column;
 }
 
+.nav-link .logo {
+    margin-bottom: 3rem;
+}
 
+.nav-link .logo h1 {
+    margin-left: 1rem;
+}
+
+.nav-link .logo span {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--Theme-color);
+}
+
+.nav-link .logo::before {
+    content: "";
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 0.6rem solid var(--Theme-color);
+    border-left: 0.6rem solid var(--Theme-color);
+}
+
+.nav-link .logo::after {
+    content: "";
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    right: -2rem;
+    bottom: 0;
+    border-right: 0.6rem solid var(--Theme-color);
+    border-bottom: 0.6rem solid var(--Theme-color);
+}
 
 nav .nav-link a {
     font-size: 2rem;
@@ -119,6 +153,29 @@ nav .nav-link a.active {
         background: var(--skin-color);
         transform: translateY(-2px);
       }
+    
+    .nav-link .logo {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+    .nav-link .logo h1 {
+        font-size: 1.6rem;
+    }
+
+    .nav-link .logo span {font-size: 3rem;}
+
+    .nav-link .logo::before {
+        border-top: 0.2rem solid var(--Theme-color);
+        border-left: 0.2rem solid var(--Theme-color);
+    }
+
+    .nav-link .logo::after {
+        right: -1rem;
+        border-right: 0.2rem solid var(--Theme-color);
+        border-bottom: 0.2rem solid var(--Theme-color);
+    }
 
       @keyframes navAnimation {
         0% {

@@ -7,6 +7,9 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav-link">
+        <div className="logo">
+          <h1><span>A</span>L Amin</h1>
+        </div>
         <NavLink to="/">
           <AiFillHome className="icon"></AiFillHome>
           <span>Home</span>

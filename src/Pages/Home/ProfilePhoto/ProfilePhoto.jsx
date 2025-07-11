@@ -1,5 +1,5 @@
 import "./profile-photo.css";
-import profileImg from "./../../../../public/Profile-Photo.jpg";
+import profileImg from "./../../../../public/Profile Pic.jpg";
 
 const ProfilePhoto = () => {
   const title = "Al Amin Rahmatullah - MERN stack web developer - "
